@@ -1,2 +1,2 @@
-# pbapply_suggests
+# pbapplySuggests
 Suggests: pbapply
