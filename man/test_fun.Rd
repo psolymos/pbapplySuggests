@@ -1,6 +1,7 @@
 \name{test_fun}
 \alias{test_fun}
 \alias{pb_fun}
+\alias{pb_fun2}
 \title{
 Test function
 }
@@ -10,6 +11,7 @@ Testing pbapply package.
 \usage{
 test_fun(x, time = 0.01)
 pb_fun(x, fun, ...)
+pb_fun2(fun, ...)
 }
 \arguments{
   \item{x}{
@@ -37,5 +39,6 @@ pb_fun(1:10, test_fun)
 opb <- pbapply::pboptions(type = "timer")
 pb_fun(1:10, test_fun)
 pbapply::pboptions(opb)
+pb_fun2(rep, 1:4, 4:1)
 }
 \keyword{ misc }

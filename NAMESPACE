@@ -1,2 +1,2 @@
-export(test_fun, pb_fun)
+export(test_fun, pb_fun, pb_fun2)
 
